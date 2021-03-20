@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-  package="de.esys.esysfluttershare">
+    package="de.esys.esysfluttershare">
 
     <application>
         <provider
@@ -12,4 +12,8 @@
                 android:resource="@xml/esys_flutter_share_filepaths" />
         </provider>
     </application>
+
+    <meta-data
+        android:name="flutterEmbedding"
+        android:value="2" />
 </manifest>
